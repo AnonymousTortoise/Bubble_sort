@@ -30,6 +30,7 @@ void main()
 {
     int i,arr[100],n;
     printf("How many elements do you want to enter?");
+    scanf("%d"&n);
     for(i=0;i<n;i++)
     {
     printf("Enter the %d element",i+1);
